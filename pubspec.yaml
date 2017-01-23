@@ -1,0 +1,17 @@
+name:          vector_storage_perf
+version:       0.0.1
+description:   Performance tests for different storage types in dart vectors
+author:        Gary Smith <argentiapparatus@gmail.com>
+homepage:      https://github.com/ArgentiApparatus/vector_storage_perf.dart
+publish_to:    none
+environment:
+  sdk: '>=1.21.0 <2.0.0'
+
+dependencies:
+
+dev_dependencies:
+  browser: '^0.10.0'
+  dart_to_js_script_rewriter: '^1.0.0'
+
+transformers:
+- dart_to_js_script_rewriter
